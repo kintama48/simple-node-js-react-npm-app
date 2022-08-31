@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './FCCU Logo.jpg';
 import './App.css';
 
 class App extends Component {
@@ -10,6 +10,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to SQA Final Project!</h1>
           <h2>This is a dummy application to test Jenkins!</h2>
+          <h2>It is made in ReactJS!</h2>
         </header>
       </div>
     );
