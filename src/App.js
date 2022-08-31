@@ -11,7 +11,6 @@ class App extends Component {
           <h1 className="App-title">Welcome to SQA Final Project!</h1>
           <h2>This is a dummy application to test Jenkins!</h2>
           <h2>It is made in ReactJS!</h2>
-          <h1>Pipeline In Action!</h1>
         </header>
       </div>
     );
