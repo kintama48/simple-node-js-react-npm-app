@@ -16,7 +16,6 @@ pipeline {
                 snykInstallation: 'COMP421snyk',
                 snykTokenId: 'snyk-api-token',
                 // place other optional parameters here, for example:
-                additionalArguments: '--all-projects --detection-depth=<DEPTH>'
                 )
             }
         }
