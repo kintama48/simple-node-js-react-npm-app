@@ -16,13 +16,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Testing...'
-                snykSecurity(
-                snykInstallation: 'COMP421snyk',
-                snykTokenId: 'organization-snyk-api-token',
-                // place other optional parameters here, for example:
-                additionalArguments: '--all-projects --detection-depth=<DEPTH>'
-                )
+                sh './jenkins/scripts/test.sh'
             }
         }
         stage('Deploy') {
