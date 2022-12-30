@@ -8,7 +8,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to SQA Final Project!</h1>
+          <h1 className="App-title">Welcome to Information Security Final Project!</h1>
           <h2>This is a dummy application to test Jenkins!</h2>
           <h2>It is made in ReactJS!</h2>
         </header>
